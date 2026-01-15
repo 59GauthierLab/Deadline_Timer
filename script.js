@@ -57,8 +57,10 @@ toggleBtn.addEventListener("click", () => {
 const FONT_SCALE = {
   min: 0.8,
   max: 5,
-  step: 0.1,
-  default: 1.2,
+  // ボタン操作時の変化量を大きめに調整
+  step: 0.3,
+  // 初期サイズを 1.6 に設定
+  default: 1.6,
 };
 
 function clamp(value, min, max) {

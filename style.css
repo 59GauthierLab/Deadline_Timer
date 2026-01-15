@@ -3,7 +3,8 @@
   --bg-dark: #242424;
   --text-light: #f2f2f2;
   --text-dark: #1a1a1a;
-  --font-scale: 1;
+  /* 文字サイズのデフォルト値を大きめに調整 */
+  --font-scale: 1.6;
 }
 
 body {
@@ -63,8 +64,9 @@ body.dark {
   background: transparent;
   color: inherit;
   border-radius: 999px;
-  padding: 0.4rem 1rem;
-  font-size: 0.95rem;
+  /* 右下のボタンをより大きく見せるために余白と文字サイズを調整 */
+  padding: 0.6rem 1.4rem;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: opacity 0.2s, transform 0.2s;
 }
