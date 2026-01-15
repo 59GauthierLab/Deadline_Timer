@@ -1,0 +1,60 @@
+:root {
+  --bg-light: #ffffff;
+  --bg-dark: #242424;
+  --text-light: #f2f2f2;
+  --text-dark: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+.container {
+  text-align: center;
+}
+
+.label {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.timer {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* テーマ切替ボタン */
+#themeToggle {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 5rem;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#themeToggle:hover {
+  opacity: 0.8;
+}
