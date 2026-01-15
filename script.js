@@ -3,7 +3,7 @@
    ========================= */
 
 // 締切日時（秒まで指定可）
-const DEADLINE = new Date("2026-01-27T15:59:59");
+const DEADLINE = new Date("2026-01-27T16:29:59");
 
 // 表示する任意テキスト
 const LABEL_TEXT = "❣卒論提出まで❣";
