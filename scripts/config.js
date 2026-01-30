@@ -8,7 +8,7 @@ App.config = {
   // constants.js の文字列を Date に変換して利用
   deadline: new Date(DEADLINE_TIME_TEXT),
   // 表示する任意テキスト
-  labelText: "❣️あぶすとらくと提出まで❣️",
+  labelText: "❣️Abstract提出まで❣️",
   // フォントサイズの調整パラメータ
   fontScale: {
     min: 0.8,
