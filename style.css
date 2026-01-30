@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Computer Modern';
-  src: local('CMU Serif'), local('Computer Modern'), local('Latin Modern Roman');
+  src: local('CMU Serif'), local('Computer Modern'), local('Latin Modern Roman'), local('Latin Modern Math');
   font-weight: normal;
 }
 
@@ -42,7 +42,7 @@ body.dark {
   margin-bottom: 1rem;
   opacity: 0.8;
   /* Computer Modern Math style */
-  font-family: 'Computer Modern', 'Latin Modern Math', 'Times New Roman', 'Liberation Serif', 'Nimbus Roman', Times, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', 'Noto Serif JP', 'Source Han Serif JP', serif;
+  font-family: 'Computer Modern', 'Latin Modern Math', 'Times New Roman', 'Liberation Serif', 'Nimbus Roman', 'Times', 'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', 'Noto Serif JP', 'Source Han Serif JP', serif;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 0.02em;
