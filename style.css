@@ -35,8 +35,8 @@ body.dark {
   font-size: calc(1.6rem * var(--font-scale));
   margin-bottom: 1rem;
   opacity: 0.8;
-  /* Computer Modern Math style: serif italic font */
-  font-family: 'Times New Roman', 'Liberation Serif', 'Nimbus Roman', Times, serif;
+  /* Computer Modern Math style: serif italic font with Japanese fallback */
+  font-family: 'Times New Roman', 'Liberation Serif', 'Nimbus Roman', Times, serif, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', 'Noto Serif JP', 'Source Han Serif JP';
   font-style: italic;
   font-weight: normal;
 }
